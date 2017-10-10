@@ -8,12 +8,11 @@ public class SaurabhBlib
 	
 	public static void sumupto(int x) 
 	{
-		int i = 0;
-		int sum = i +x;
-		for (i <= x;)
+		int y = 0;
+		for (int i=0; i <= 0; i++)
 		{
-			System.out.println (i + x);
+			y = i + x;
 		}
-		i++;
+		System.out.print (y);
 	}
 }
