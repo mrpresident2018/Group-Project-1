@@ -3,7 +3,7 @@ public class Runner {
 	public static void main(String [] args)
 	{
 		SaurabhBlib.isPalindrome();
-		SaurabhBlib.sumupto();
+		SaurabhBlib.sumupto(0);
 		WesALib.datestr();
 		WesALib.isFibonnaci();
 		WesALib.multiplacationTable();
