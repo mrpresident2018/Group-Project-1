@@ -4,5 +4,8 @@ public class Runner {
 	{
 		SaurabhBlib.isPalindrome();
 		SaurabhBlib.sumupto();
+		WesALib.datestr();
+		WesALib.isFibonnaci();
+		WesALib.multiplacationTable();
 	}
 }
