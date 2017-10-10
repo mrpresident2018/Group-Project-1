@@ -1,11 +1,10 @@
 
 public class WesALib 
 {
-	public static void datestr() 
+	public static void isPalindrome() 
 	{
 		
 	}
-	
 	public static void isFibonnaci()
 	{
 		

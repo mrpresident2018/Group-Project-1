@@ -2,9 +2,10 @@
 public class Runner {
 	public static void main(String [] args)
 	{
-		SaurabhBlib.isPalindrome();
+		WesALib.isPalindrome();
 		SaurabhBlib.sumupto(0);
-		WesALib.datestr();
+		SaurabhBlib.datestr();
+		SaurabhBlib.isfactorial(3);
 		WesALib.isFibonnaci();
 		WesALib.multiplacationTable();
 	}
