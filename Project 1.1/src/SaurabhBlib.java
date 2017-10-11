@@ -1,13 +1,13 @@
 
 public class SaurabhBlib 
 {
-	public static void datestr() 
+	public static void datestr(String x) 
 	{
 //Dates are in mm/dd/yyyy
 //Must make in to dd-mm-yyyy
-		String a = str.substring (4,5);
-		String b = str.substring (1,2);
-		String c = str.substring (10,9,8,7);
+		String a = str.xsubstring (3,5);
+		String b = str.xsubstring (1,3);
+		String c = str.xsubstring (7);
 			System.out.print ( a + "-" + b "-" + c + "-");
 	}
 	public static void sumupto(int x) 
