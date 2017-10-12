@@ -5,10 +5,10 @@ public class SaurabhBlib
 	{
 //Dates are in mm/dd/yyyy
 //Must make in to dd-mm-yyyy
-		String a = str.xsubstring (3,5);
-		String b = str.xsubstring (1,3);
-		String c = str.xsubstring (7);
-			System.out.print ( a + "-" + b "-" + c + "-");
+		String a = x.substring (3,5);
+		String b = x.substring (0,2);
+		String c = x.substring (6,10);
+			System.out.print ( a + "-" + b + "-" + c);
 	}
 	public static void sumupto(int x) 
 	{
