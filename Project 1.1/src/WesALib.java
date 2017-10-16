@@ -1,9 +1,26 @@
 
 public class WesALib 
 {
-	public static void isPalindrome() 
+	public static boolean isPalindrome(String s) 
 	{
-		
+		int a=s.length();
+		int n=0; 
+		while(n<=(a/2))
+		{
+			if(
+				s.substring(n)
+				==
+				s.substring(a-n)
+				)
+			{
+				n++;
+			}
+			else
+			{
+				return(false);
+			}
+		}
+		return(true);
 	}
 	public static void isFibonnaci(int f)
 	{
@@ -33,8 +50,17 @@ public class WesALib
 		}
 		
 	}
-	public static void multiplacationTable()
+	public static void multiplacationTable(int m)
 	{
+		int i=1;
+		for(int p=1, p<=m, p++)
+		{
+			
+			for(i; i<=m; i++)
 		
+			{
+				System.out.print(i)
+			}
+		}	
 	}
 }
