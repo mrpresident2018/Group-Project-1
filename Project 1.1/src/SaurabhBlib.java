@@ -19,6 +19,7 @@ public class SaurabhBlib
 		}
 		System.out.print (y);
 	}
+	// You insert a numerical input and get the sum of the numbers till the input
 	public static void isfactorial(int x)
 	{
 		int y = 0;
@@ -28,4 +29,5 @@ public class SaurabhBlib
 		}
 		System.out.print (y);
 	}
+	// Tells whether if the input is factorial
 }
