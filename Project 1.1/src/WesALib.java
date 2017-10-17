@@ -1,4 +1,4 @@
-
+//wes avedisian
 public class WesALib 
 {
 	public static boolean isPalindrome(String s) 
@@ -55,12 +55,11 @@ public class WesALib
 		int i=1;
 		for(int p=1, p<=m, p++)
 		{
-			
 			for(i; i<=m; i++)
-		
 			{
-				System.out.print(i)
-			}
+				System.out.print(p*i);
+			};
+			System.out.println()
 		}	
 	}
 }
