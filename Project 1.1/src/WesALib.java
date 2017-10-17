@@ -33,13 +33,13 @@ public class WesALib
 			int x=0;
 			int y=1;
 			int z=0;
-			while(c<n)
+			while(z<f)
 			{
-				x+y=z;
+				x+=y=z;
 				x=y;
 				y=z;
 			}
-			if(c==n)
+			if(z==f)
 			{
 				System.out.print("Is a Fibonacci");
 			}
@@ -53,13 +53,14 @@ public class WesALib
 	public static void multiplacationTable(int m)
 	{
 		int i=1;
-		for(int p=1, p<=m, p++)
+		int p=1;
+		while(p<m);
 		{
-			for(i; i<=m; i++)
+			for(i=1; i<=m; i++)
 			{
 				System.out.print(p*i);
 			};
-			System.out.println()
+			System.out.println();
 		}	
 	}
 }

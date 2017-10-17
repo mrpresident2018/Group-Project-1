@@ -2,7 +2,7 @@
 public class Runner {
 	public static void main(String [] args)
 	{
-		WesALib.isPalindrome(abaaba);
+		WesALib.isPalindrome("abaaba");
 		SaurabhBlib.sumupto(0);
 		SaurabhBlib.datestr("10/69/4200");
 		SaurabhBlib.isfactorial(3);
