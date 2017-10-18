@@ -17,17 +17,21 @@ public class SaurabhBlib
 		{
 			y = i + x;
 		}
-		System.out.print (y);
+		System.out.print(y);
 	}
-	// You insert a numerical input and get the sum of the numbers till the input
-	public static void isfactorial(int x)
+	// You insert a numerical input and get the sum of the numbers 'til the input
+	public static boolean isfactorial(int x)
 	{
-		int y = 0;
-		for (int i=0; i <= 0; i++)
+		int y=1;
+		for (int i=1; i <= x; i++)
 		{
-			y = i*y;
+			if(x==y)
+			{
+				return(true);
+			}
+			y=i*y;
 		}
-		System.out.print (y);
+		return(false);
 	}
 	// Tells whether if the input is factorial
 }

@@ -22,11 +22,11 @@ public class WesALib
 		}
 		return(true);
 	}
-	public static void isFibonnaci(int f)
+	public static boolean isFibonnaci(int f)
 	{
 		if(f<0)
 		{
-			System.out.print("Not a Fibonacci");
+			return(false);
 		}
 		else
 		{
@@ -35,17 +35,17 @@ public class WesALib
 			int z=0;
 			while(z<f)
 			{
-				x+=y=z;
+				z=x+y;
 				x=y;
 				y=z;
 			}
 			if(z==f)
 			{
-				System.out.print("Is a Fibonacci");
+				return(true);
 			}
 			else
 			{
-				System.out.print("Not a Fibonacci");
+				return(false);
 			}
 		}
 		
@@ -54,12 +54,13 @@ public class WesALib
 	{
 		int i=1;
 		int p=1;
-		while(p<m);
+		while(p<=m)
 		{
 			for(i=1; i<=m; i++)
 			{
-				System.out.print(p*i);
-			};
+				System.out.print(p*i + " ");
+			}
+			p++;
 			System.out.println();
 		}	
 	}
