@@ -3,22 +3,17 @@ public class WesALib
 {
 	public static boolean isPalindrome(String s) 
 	{
-		int a=s.length();
-		int n=0; 
-		while(n<=(a/2))
+		int n = 0;
+		int a = s.length();
+		while(n<((a-1)/2)) 
 		{
 			if(
-				s.substring(n)
-				==
-				s.substring(a-n)
-				)
-			{
-				n++;
-			}
-			else
+			   (s.substring(n)).equals(s.substring(a-n-1))==(false)
+			  )
 			{
 				return(false);
 			}
+			n++;
 		}
 		return(true);
 	}
