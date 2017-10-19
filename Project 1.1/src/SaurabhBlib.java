@@ -7,8 +7,8 @@ public class SaurabhBlib
 //Must make in to dd-mm-yyyy
 		String a = x.substring (3,5);
 		String b = x.substring (0,2);
-		String c = x.substring (6,10);
-			System.out.print ( a + "-" + b + "-" + c);
+		String c = x.substring (6);
+			System.out.println ( a + "-" + b + "-" + c);
 	}
 	public static void sumupto(int x) 
 	{
@@ -19,7 +19,7 @@ public class SaurabhBlib
 		}
 		System.out.print(y);
 	}
-	// You insert a numerical input and get the sum of the numbers 'til the input
+	// You insert a numerical input and get the sum of the numbers 'till the input
 	public static boolean isfactorial(int x)
 	{
 		int y=1;
