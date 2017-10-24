@@ -2,9 +2,9 @@
 public class Runner {
 	public static void main(String [] args)
 	{
-		System.out.println(WesALib.isPalindrome("abba"));
+		System.out.println(WesALib.isPalindrome("abawqwaba"));
 		System.out.println();
-		SaurabhBlib.sumupto(0);
+		SaurabhBlib.sumupto(7);
 		System.out.println();
 		SaurabhBlib.datestr("10/69/4200");
 		System.out.println();
@@ -12,6 +12,6 @@ public class Runner {
 		System.out.println();
 		System.out.println(WesALib.isFibonnaci(34));
 		System.out.println();
-		WesALib.multiplacationTable(10);
+		WesALib.multiplacationTable(79);
 	}
 }

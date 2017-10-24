@@ -8,7 +8,7 @@ public class WesALib
 		while(n<((a-1)/2)) 
 		{
 			if(
-			   (s.substring(n)).equals(s.substring(a-n-1))==(false)
+			   (s.substring(n,n+1)).equals(s.substring(a-n-1,a-n))==(false)
 			  )
 			{
 				return(false);
