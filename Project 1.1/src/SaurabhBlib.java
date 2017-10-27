@@ -1,4 +1,4 @@
-
+// Saurabh Bansal
 public class SaurabhBlib 
 {
 	public static void datestr(String x) 
@@ -13,11 +13,13 @@ public class SaurabhBlib
 	public static void sumupto(int x) 
 	{
 		int y = 0;
-		for (int i=0; i <= 0; i++)
+		for (int i=0; i <= x; i++)
 		{
 			y = i + x;
 		}
 		System.out.print(y);
+	// The output is the number being added to 0, 1, 2, .... till the number itself.
+	// Ex. x=3, output: 3,4,5,6
 	}
 	// You insert a numerical input and get the sum of the numbers 'till the input
 	public static boolean isfactorial(int x)
