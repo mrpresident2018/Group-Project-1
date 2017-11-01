@@ -12,11 +12,14 @@ public class SaurabhBlib
 	}
 	public static void sumupto(int x) 
 	{
-		int y = 0;
-		for (int i=0; i <= x; i++)
+		int a = 0;
+		int b = 0;
+		while (b <= x)
 		{
-			y = i + x;
+			a = a + b;
+			b ++; 
 		}
+		return a;
 		System.out.print(y);
 	// The output is the number being added to 0, 1, 2, .... till the number itself.
 	// Ex. x=3, output: 3,4,5,6
